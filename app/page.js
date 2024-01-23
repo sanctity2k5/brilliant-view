@@ -1,7 +1,8 @@
-import Homepage from "@/app/Home";
+import Homepage from "@/components/Homepage/home";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="">
       <Homepage />
     </main>
   );
