@@ -1,5 +1,5 @@
 .container {
-    @apply flex flex-col-reverse lg:flex lg:flex-row lg:mt-10 px-6 font-poppins;
+    @apply flex flex-col-reverse lg:flex lg:flex-row lg:mt-10 px-6 font-poppins z-0;
 }
 
 .bannerText {
@@ -11,29 +11,16 @@
 }
 
 .bannerTitle {
-    @apply text-[36px] leading-10 lg:text-[60px] font-exo font-bold lg:w-[60%] xl:leading-[80px] mt-5;
+    @apply text-[28px] leading-[50px] lg:text-[60px] font-exo font-bold lg:w-[60%] xl:leading-[80px] mt-5;
 }
 
 .bannerSubtitle {
-    @apply text-[18px] lg:text-[18px] leading-6 lg:leading-8 mt-5 lg:w-[50%];
+    @apply text-[18px] hidden lg:flex lg:text-[18px] leading-6 lg:leading-8 mt-5 lg:w-[50%];
 }
 
 .buttons {
     @apply flex gap-6 mt-8;
 }
-
-.watch {
-    @apply w-[130px] lg:w-[200px] h-[38px] flex items-center justify-start lg:gap-4 rounded-[10px] text-center text-[16px] font-sans hover:border-[#C5E1A5] hover:text-[#C5E1A5];
-}
-
-.play {
-    @apply w-[32px] h-[32px] mt-1;
-}
-
 .getStarted {
-    @apply w-[120px] h-[38px] bg-primary rounded-[20px] text-center text-[16px] font-sans hover:bg-[#C5E1A5];
-}
-
-.illustration {
-    @apply w-[250px] h-[250px] lg:w-[427px] lg:h-[421px] xl:w-[500px] xl:h-[500px];
+    @apply w-[120px] h-[38px] bg-primary rounded-[10px] text-center text-[16px] font-poppins hover:bg-[#e6a657];
 }

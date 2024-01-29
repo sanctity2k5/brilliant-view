@@ -1,9 +1,9 @@
 .mainContainer {
-    @apply flex w-full lg:justify-between items-center px-4 py-4 lg:px-16 xl:px-24 text-white bg-black font-poppins font-semibold;
+    @apply flex w-full lg:justify-between items-center px-4 py-4 lg:px-16 xl:px-24 text-white bg-black font-poppins font-semibold z-10;
 }
 
 .navbar {
-    @apply hidden lg:flex justify-between gap-12 lg:w-[60%] xl:w-[70%] items-center;
+    @apply hidden lg:flex justify-between gap-12 lg:w-[60%] xl:w-[67%] items-center cursor-pointer;
 }
 
 .navList {
@@ -37,11 +37,11 @@
 
 /* Mobile Nav styles */
 .mobileNav {
-    @apply w-full flex justify-between items-center lg:hidden;
+    @apply w-full flex justify-between items-center z-10 lg:hidden;
 }
 
 .mobileNavList {
-    @apply mt-8;
+    @apply flex flex-col gap-2 mt-8;
 }
 
 .mobileButtons {
@@ -49,11 +49,11 @@
 }
 
 .login {
-    @apply hover:text-[18px] hover:text-primary;
+    @apply flex items-center gap-2 hover:text-[18px] hover:text-primary;
 }
 
 .register {
-    @apply w-[140px] h-[38px] bg-primary rounded-[20px] text-center text-[16px] hover:bg-white hover:text-black;
+    @apply flex items-center justify-center w-[160px] h-[38px] text-white gap-2 bg-primary rounded-[20px] text-center text-[16px] hover:bg-[#e6a657];
 }
 
 .settingsIcon {
